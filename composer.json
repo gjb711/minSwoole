@@ -1,0 +1,21 @@
+{
+    "name": "gjb711/minSwoole",
+    "description": "极简的Swoole框架",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "guobin",
+            "email": "gjb711@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "minSwoole\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-swoole": ">=4.4"
+    }
+}
